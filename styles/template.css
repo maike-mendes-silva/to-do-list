@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: #222;
+}
+
+.container{
+	max-width: 500px;
+	margin:  30px auto;
+	overflow:  auto;
+	min-width: 300px;
+	border:  2px solid chartreuse;
+	padding:  30px;
+	border-radius:  10px;
+}
