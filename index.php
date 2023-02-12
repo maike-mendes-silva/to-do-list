@@ -1,6 +1,6 @@
 <?php
     // cria a constante APP
-    define("APP", "http://localhost/web22021b/mvc/");
+    define("APP", "http://localhost/to-do-list/");
 
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
