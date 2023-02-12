@@ -1,1 +1,1 @@
-<h1>Página teste</h1>
+<h2>Página teste</h2>
