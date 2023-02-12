@@ -4,3 +4,23 @@
     color: #fff;
     text-align: left;
 }
+
+.subtitulo{
+    margin: 16px 0 16px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    line-height: normal;
+}
+
+.butao{
+    background-color: #222;
+    border-color: chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    width: 150px;
+}
