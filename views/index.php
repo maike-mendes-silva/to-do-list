@@ -9,8 +9,11 @@
     Nova Tarefa
 </button>
 
-<!-- <div class='container-tarefas'>
+<div class='container-tarefas'>
     <div class='tarefa'>
-        Teste
+        <p class='nome-tarefa'>Lavar a louça</p>
+        <button class='butao deletar-tarefa'>
+            <p class='check-icon'>✓</p>
+        </button>
     </div>
-</div> -->
+</div>
