@@ -15,7 +15,7 @@
         <label for="descricao" class="form-label">
             Descrição
         </label>
-        <input readonly type="text" class="form-input" name="descricao" value="<?php echo "{$tarefa['descricao']}"; ?>">
+        <input type="text" class="form-input" name="descricao" value="<?php echo "{$tarefa['descricao']}"; ?>">
 
         <label for="prazo" class="form-label">
             Prazo
