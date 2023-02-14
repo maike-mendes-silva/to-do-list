@@ -1,0 +1,23 @@
+.titulo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+}
+
+.subtitulo{
+    margin: 16px 0 24px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    line-height: normal;
+}
+
+.form-label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    padding: 0px 0px 8px 16px;
+}
+

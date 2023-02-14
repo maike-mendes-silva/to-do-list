@@ -12,7 +12,7 @@
 <div class='container-tarefas'>
     <div class='tarefa'>
         <p class='nome-tarefa'>Lavar a louça</p>
-        <button class='butao deletar-tarefa'>
+        <button class='butao deletar-tarefa' type='button' onclick="window.location.href = '<?php echo APP.'tarefa/deletar'?>'">
             <p class='check-icon'>✓</p>
         </button>
     </div>
