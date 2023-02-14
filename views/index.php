@@ -5,7 +5,7 @@
     Diga adeus a desorganização! Crie aqui suas tarefas e de um check conforme for cumprindo as.
 </h2>
 
-<button class='butao nova-tarefa'>
+<button class='butao nova-tarefa' href="<?php echo APP."tarefa/novo";?>">
     Nova Tarefa
 </button>
 

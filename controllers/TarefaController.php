@@ -15,7 +15,7 @@
       $tarefa['prazo'] = "";
       $dados = array();
       $dados['tarefa'] = $tarefa;
-      $this->view("formularioJogador", $dados);
+      $this->view("formularioTarefa", $dados);
     }
 
     public function excluir($id) {
