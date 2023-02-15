@@ -9,14 +9,23 @@
     Nova Tarefa
 </button>
 
-<div class='container-tarefas'>
-    <div class='tarefa'>
-        <div>
-            <p class='nome-tarefa'>Lavar a louça</p>
-            <p class='prazo-tarefa'>#15-02-2023</p>
-        </div>
-        <button class='butao deletar-tarefa' type='button' onclick="window.location.href = '<?php echo APP.'tarefa/deletar'?>'">
-            <p class='check-icon'>✓</p>
-        </button>
-    </div>
-</div>
+<?php
+    foreach($tarefas as $tarefa){
+        $caminho = APP;
+        $data = implode('/', array_reverse(explode('-', $tarefa['prazo'])));
+        echo "
+            <div class='container-tarefas'>
+                <div class='tarefa'>
+                    <div>
+                        <p class='nome-tarefa'>{$tarefa['descricao']}</p>
+                        <p class='prazo-tarefa'>#$data</p>
+                    </div>
+                    <button class='butao deletar-tarefa' type='button' onclick='window.location.href = '$caminho/tarefa/excluir/{$tarefa['id']}''>
+                        <p class='check-icon'>✓</p>
+                    </button>
+                </div>
+            </div>
+        ";
+    }
+
+?>

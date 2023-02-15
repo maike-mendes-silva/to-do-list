@@ -9,7 +9,7 @@
     require_once "autoload.php";
 
     if (!isset($_GET['url'])) {
-        $url = "index/index";
+        $url = "tarefa/listar";
     } else {
         $url = $_GET['url'];
     }
