@@ -7,20 +7,17 @@
 <form action="<?php echo APP.'tarefa/salvar';?>" method="post">
 
     <div>
-        <label for="id" class="form-label">
-            ID
-        </label>
-        <input readonly type="text" class="form-input" name="id" value="<?php echo "{$tarefa['id']}"; ?>">
-        
         <label for="descricao" class="form-label">
             Descrição
         </label>
-        <input type="text" class="form-input" name="descricao" value="<?php echo "{$tarefa['descricao']}"; ?>">
+        <input type='text' class='form-input' name='descricao' placeholder='Descrição da tarefa'>
 
         <label for="prazo" class="form-label">
             Prazo
         </label>
-        <input type="date" class="form-input" name="descricao" value="<?php echo "{$tarefa['prazo']}"; ?>">
+        <input type="text" class="form-input" name="descricao" placeholder='Prazo de cumprimento' ?>
+
+        <button></button>
     </div>
 
 </form>
