@@ -36,3 +36,24 @@
     padding-left: 16px;
 }
 
+.botao-nova-tarefa{
+    background-color: chartreuse;
+    border: 2px solid #222;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #222;
+    width: 170px;
+    height: 40px;
+}
+
+.botao-nova-tarefa:hover{
+    background-color: #222;
+    border: 2px solid chartreuse;
+    color:#fff;
+    transition: 0.2s;
+}
+

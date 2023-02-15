@@ -17,7 +17,7 @@
         </label>
         <input type="text" class="form-input" name="descricao" placeholder='Prazo de cumprimento' ?>
 
-        <button></button>
+        <button class='botao-nova-tarefa'type="submit">Criar tarefa</button>
     </div>
 
 </form>
