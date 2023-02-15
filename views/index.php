@@ -11,7 +11,10 @@
 
 <div class='container-tarefas'>
     <div class='tarefa'>
-        <p class='nome-tarefa'>Lavar a louça</p>
+        <div>
+            <p class='nome-tarefa'>Lavar a louça</p>
+            <p class='prazo-tarefa'>#15-02-2023</p>
+        </div>
         <button class='butao deletar-tarefa' type='button' onclick="window.location.href = '<?php echo APP.'tarefa/deletar'?>'">
             <p class='check-icon'>✓</p>
         </button>

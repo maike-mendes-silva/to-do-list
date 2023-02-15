@@ -42,12 +42,9 @@
 }
 
 .tarefa{
-    color:#fff;
-    font-weight: bold;
-    font-size: 20px;
     border: chartreuse 2px solid;
     border-radius: 5px;
-    height: 60px;
+    height: 65px;
     display: flex;
     background-color: #1D211F;
     align-items: center;
@@ -55,7 +52,20 @@
 }
 
 .nome-tarefa{
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
     margin-left: 32px;
+    display: inline;
+}
+
+.prazo-tarefa{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 32px;
+    font-style: italic;
+    color:#BFBFBF;
+    padding-top: 4px
 }
 
 .deletar-tarefa{
