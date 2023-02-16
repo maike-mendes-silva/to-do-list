@@ -71,13 +71,17 @@
 .deletar-tarefa{
     margin-right: 32px;
     border-radius:50%;
-    width: 35px;
-    height: 35px;
+    width: 18px;
+    height: 18px;
     text-align: center;
     display: flex;
     font-size: 16px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .check-icon{
     align-self:center;
+    margin: auto;
+    text-decoration: none;
 }

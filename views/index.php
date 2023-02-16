@@ -20,12 +20,11 @@
                         <p class='nome-tarefa'>{$tarefa['descricao']}</p>
                         <p class='prazo-tarefa'>#$data</p>
                     </div>
-                    <button class='butao deletar-tarefa' type='button' onclick='window.location.href = '$caminho/tarefa/excluir/{$tarefa['id']}''>
+                    <a class='butao deletar-tarefa' type='button' href='$caminho/tarefa/excluir/{$tarefa['id']}'>
                         <p class='check-icon'>✓</p>
-                    </button>
+                    </a>
                 </div>
             </div>
         ";
     }
-
 ?>
