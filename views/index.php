@@ -28,3 +28,20 @@
         ";
     }
 ?>
+<div class='container-categoria'>
+    <div class='categoria-nome'>
+        Dever de casa
+    </div>
+    <hr>
+</div>
+<div class='container-tarefas'>
+    <div class='tarefa'>
+        <div>
+            <p class='nome-tarefa'>Varrer a casa</p>
+            <p class='prazo-tarefa'>#17/02/2023</p>
+        </div>
+        <a class='butao deletar-tarefa' type='button' href='$caminho/tarefa/excluir/{$tarefa['id']}'>
+            <p class='check-icon'>✓</p>
+        </a>
+    </div>
+</div>
