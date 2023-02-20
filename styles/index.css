@@ -38,7 +38,7 @@
 }
 
 .container-tarefas{
-    margin: 16px 0 16px 0;
+    margin: 8px 0 16px 0;
 }
 
 .tarefa{
@@ -84,4 +84,24 @@
     align-self:center;
     margin: auto;
     text-decoration: none;
+}
+
+.container-categoria{
+    display: flex;
+    margin: 24px 0 8px 0;
+}
+
+.categoria-nome{
+    color: #BFBFBF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 8px;
+}
+
+hr{
+    border-color: chartreuse; 
+    opacity: 0.4;
+    width: 75%;
+    margin: auto 0 auto auto;
 }

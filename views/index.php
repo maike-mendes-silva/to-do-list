@@ -30,7 +30,7 @@
 ?>
 <div class='container-categoria'>
     <div class='categoria-nome'>
-        Dever de casa
+        Tarefas de casa
     </div>
     <hr>
 </div>
