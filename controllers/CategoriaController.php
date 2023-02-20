@@ -10,6 +10,7 @@
 
         public function novo() {
             $categoria = array();
+            $categoria['id'] = 0;
             $categoria['descricao'] = "";
             $dados = array();
             $dados['categoria'] = $categoria;
@@ -32,6 +33,7 @@
 
         public function salvar() {
             $categoria = array();
+            $categoria['id'] = $_POST['id'];
             $categoria['descricao'] = $_POST['descricao'];
             $model = new Categoria();
             if ($categoria['id']==0) {

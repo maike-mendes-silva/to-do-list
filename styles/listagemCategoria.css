@@ -38,9 +38,10 @@
 }
 
 .container-categorias{
-    margin: 16px 0 16px 0;
+    margin: 24px 0 0 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .categoria{
@@ -53,6 +54,7 @@
     align-items: center;
     height: 50px;
     width: 225px;
+    margin-bottom: 16px;
 }
 
 .nome-categoria{

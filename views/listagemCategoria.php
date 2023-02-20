@@ -9,16 +9,23 @@
 </button>
 
 <div class='container-categorias'>
-    <div class='categoria'>
-        <p class='nome-categoria'>Escola</p>
-        <div class='container-buttons'>
-            <a class='butao editar-categoria' type='button' href='$caminho/categoria/editar/{$categoria['id']}'>
-                <p class='buton-icon'>*</p>
-            </a>
-            <a class='butao deletar-categoria' type='button' href='$caminho/categoria/excluir/{$categoria['id']}'>
-                <p class='buton-icon'>X</p>
-            </a>
-        </div>
-    </div>
+    <?php
+        foreach($categorias as $categoria){
+            $caminho = APP;
+            echo "
+                <div class='categoria'>
+                    <p class='nome-categoria'>{$categoria['descricao']}</p>
+                    <div class='container-buttons'>
+                        <a class='butao editar-categoria' type='button' href='$caminho/categoria/editar/{$categoria['id']}'>
+                            <p class='buton-icon'>*</p>
+                        </a>
+                        <a class='butao deletar-categoria' type='button' href='$caminho/categoria/excluir/{$categoria['id']}'>
+                            <p class='buton-icon'>X</p>
+                        </a>
+                    </div>
+                </div>
+            ";
+        }
+    ?>
 </div>
 
