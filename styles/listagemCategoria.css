@@ -1,0 +1,108 @@
+.titulo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+}
+
+.subtitulo{
+    margin: 16px 0 24px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    line-height: normal;
+}
+
+.butao{
+    background-color: #222;
+    border-color: chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.butao:hover{
+    background-color: #7fff00;
+    color:#222;
+    transition: 0.2s;
+}
+
+.nova-categoria{
+    font-size: 14px;
+    width: 170px;
+    height: 40px;
+}
+
+.container-categorias{
+    margin: 16px 0 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria{
+    border: chartreuse 2px solid;
+    border-radius: 5px;
+    height: 65px;
+    background-color: #1D211F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 225px;
+}
+
+.nome-categoria{
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.container-buttons{
+    display: flex;
+}
+
+.editar-categoria{
+    margin-right: 16px;
+    border-radius:50%;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.editar-categoria:hover{
+    background-color: #FFF10D;
+    color:#222;
+    transition: 0.2s;
+}
+
+.deletar-categoria{
+    margin-right: 16px;
+    border-radius:50%;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.deletar-categoria:hover{
+    background-color: #FF4E19;
+    color:#222;
+    transition: 0.2s;
+}
+
+.button-icon{
+    align-self:center;
+    margin: auto;
+    text-decoration: none;
+}

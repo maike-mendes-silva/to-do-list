@@ -3,4 +3,4 @@
         protected $tabela="tarefa";
         protected $ordem="id";
     }
- ?>
+?>
