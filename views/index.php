@@ -10,7 +10,7 @@
         Nova Tarefa
     </button>
 
-    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categoria/novo';?>">
+    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categoria/listar';?>'">
         Menu Categoria
     </button>
 </div>

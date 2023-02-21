@@ -31,10 +31,15 @@
     transition: 0.2s;
 }
 
-.nova-categoria{
+.novo{
     font-size: 14px;
     width: 170px;
     height: 40px;
+}
+
+.container-botoes{
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-categorias{

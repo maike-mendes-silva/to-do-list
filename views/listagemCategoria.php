@@ -4,9 +4,15 @@
     Crie, edite ou adicione categorias nessa página!
 </h2>
 
-<button class='butao nova-categoria' type='button' onclick="window.location.href = '<?php echo APP.'categoria/novo';?>'">
-    Nova Categoria
-</button>
+<div class='container-botoes'>
+    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categpria/novo';?>'">
+        Nova Categoria
+    </button>
+
+    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'tarefa/listar';?>'">
+        Menu Tarefas
+    </button>
+</div>
 
 <div class='container-categorias'>
     <?php
