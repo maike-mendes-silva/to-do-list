@@ -6,11 +6,14 @@
             $categorias = $modelCategoria->read();
 
             foreach($categorias as $categoria){
-                $tarefas[$categoria['descricao']] = $modelTarefa->getByIdCategoria($categoria['id']);
+                $valor = $modelTarefa->getByIdCategoria($categoria['id']);
+                if(!empty($valor)){
+                    $tarefas[$categoria['descricao']] = $valor;
+                }
             }
 
             $dados = array();
-            $dados['tarefas'] = $tarefas;
+            $dados['tarefasCategorizadas'] = $tarefas;
             $this->view("index", $dados);
             }
 

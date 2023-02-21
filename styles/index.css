@@ -31,10 +31,15 @@
     transition: 0.2s;
 }
 
-.nova-tarefa{
+.novo{
     font-size: 14px;
     width: 170px;
     height: 40px;
+}
+
+.container-botoes{
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-tarefas{
@@ -49,6 +54,7 @@
     background-color: #1D211F;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 8px;
 }
 
 .nome-tarefa{
