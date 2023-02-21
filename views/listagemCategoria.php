@@ -1,7 +1,7 @@
 <h1 class='titulo'>Lista de Categorias</h1>
 
 <h2 class='subtitulo'>
-    Crie, edite ou adicione categorias nessa página!
+    Crie, edite ou exclua categorias nessa página!
 </h2>
 
 <div class='container-botoes'>
