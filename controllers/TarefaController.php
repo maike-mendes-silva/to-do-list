@@ -1,8 +1,14 @@
 <?php
     class TarefaController extends Controller {
         public function listar() {
-            $model = new Tarefa();
-            $tarefas = $model->read();
+            $modelTarefa = new Tarefa();
+            $modelCategoria = new Categoria();
+            $categorias = $modelCategoria->read();
+
+            foreach($categorias as $categoria){
+                $tarefas[$categoria['descricao']] = $modelTarefa->getByIdCategoria($categoria['id']);
+            }
+
             $dados = array();
             $dados['tarefas'] = $tarefas;
             $this->view("index", $dados);
@@ -12,8 +18,12 @@
             $tarefa = array();
             $tarefa['descricao'] = "";
             $tarefa['prazo'] = "";
+            $model = new Categoria();
+            $categorias = $model->read();
+
             $dados = array();
             $dados['tarefa'] = $tarefa;
+            $dados['categorias'] = $categorias;
             $this->view("formularioTarefa", $dados);
         }
 
@@ -27,6 +37,7 @@
             $tarefa = array();
             $tarefa['descricao'] = $_POST['descricao'];
             $tarefa['prazo'] = $_POST['prazo'];
+            $tarefa['id_categoria'] = $_POST['id_categoria'];
             $model = new Tarefa();
             /* Se tiver a funcao update, não esquecer de fazer uma condição se o ID está setado ou não aqui */
             $model->create($tarefa);

@@ -32,6 +32,11 @@
     margin-bottom: 16px;
 }
 
+.select{
+    width: 508px;
+    height: 36px;
+}
+
 ::placeholder{
     padding-left: 16px;
 }

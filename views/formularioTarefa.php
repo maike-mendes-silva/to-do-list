@@ -7,6 +7,17 @@
 <form action="<?php echo APP.'tarefa/salvar';?>" method="post">
 
     <div>
+        <label for="categoria" class="form-label">
+            Categoria
+        </label>
+        <select class="form-input select" name="id_categoria">
+            <?php
+                foreach ($categorias as $categoria) {
+                    echo "<option '' value='{$categoria['id']}'>{$categoria['descricao']}</option>";
+                }
+            ?>
+        </select>
+
         <label for="descricao" class="form-label">
             Descrição
         </label>
