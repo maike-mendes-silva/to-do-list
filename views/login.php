@@ -14,6 +14,10 @@
     } 
 ?>
 
+<button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'usuario/novo';?>'">
+    Cadastrar-me
+</button>
+
 <form action="<?php echo APP.'login/logar';?>" method="post">
 
     <div>
