@@ -24,12 +24,12 @@
                     setcookie('nome', $nome);
                     $this->redirect('login/login');
                 } else {
-                    setcookie('conectado');
+                    setcookie('conectado', "");
                     if(!isset($_SESSION)) {
                         session_start();
                     }
                     $_SESSION['id_usuario'] = $usuario['id'];
-                    $this->redirect("");
+                    $this->redirect('tarefa/listar');
                 }
             }
         }
