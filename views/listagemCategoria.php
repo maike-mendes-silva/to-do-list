@@ -5,7 +5,7 @@
 </h2>
 
 <div class='container-botoes'>
-    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categpria/novo';?>'">
+    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categoria/novo';?>'">
         Nova Categoria
     </button>
 

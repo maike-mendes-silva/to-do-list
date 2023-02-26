@@ -47,9 +47,9 @@
                 echo "
                     <div class='container-login'>
                         <p class='nome-usuario'>Usuário: @{$usuarioLogado['nome']}</p>
-                        <button class='sair' type='button' onclick='window.location.href = $caminho.'login/logout''>
+                        <a class='sair' type='button' href='$caminho/login/logout'>
                             Sair
-                        </button>
+                        </a>
                     </div>
                 ";
             }
