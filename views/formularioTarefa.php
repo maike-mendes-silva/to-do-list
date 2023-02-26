@@ -26,7 +26,7 @@
         <label for="prazo" class="form-label">
             Prazo
         </label>
-        <input type="text" class="form-input" name="prazo" placeholder='Prazo de cumprimento (dd-mm-yyyy)' pattern='\d{1,2}\/\d{1,2}\/\d{4}' required>
+        <input type="text" class="form-input" name="prazo" placeholder='Prazo de cumprimento (dd/mm/yyyy)' pattern='\d{1,2}\/\d{1,2}\/\d{4}' required>
 
         <button class='botao-nova-tarefa'type="submit">Criar tarefa</button>
     </div>

@@ -8,6 +8,7 @@
 
     <div>
         <input type="hidden" name="id" value='<?php echo "{$categoria['id']}"; ?>'>
+        <input type="hidden" name="id_usuario" value='<?php echo "{$usuarioLogado['id']}"; ?>'>
         <label for="descricao" class="form-label">
             Descrição
         </label>

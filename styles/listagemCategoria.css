@@ -83,6 +83,7 @@
     font-size: 12px;
     text-decoration: none;
     color: #fff;
+    border: 2px solid #FFF10D;
 }
 
 .editar-categoria:hover{
@@ -100,6 +101,7 @@
     font-size: 12px;
     text-decoration: none;
     color: #fff;
+    border: 2px solid #FF4E19;
 }
 
 .deletar-categoria:hover{

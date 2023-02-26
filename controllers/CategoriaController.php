@@ -12,6 +12,7 @@
             $categoria = array();
             $categoria['id'] = 0;
             $categoria['descricao'] = "";
+            $categoria['id_usuario'] = "";
             $dados = array();
             $dados['categoria'] = $categoria;
             $this->view("formularioCategoria", $dados);
@@ -35,6 +36,7 @@
             $categoria = array();
             $categoria['id'] = $_POST['id'];
             $categoria['descricao'] = $_POST['descricao'];
+            $categoria['id_usuario'] = $_POST['id_usuario'];
             $model = new Categoria();
             if ($categoria['id']==0) {
                 $model->create($categoria);

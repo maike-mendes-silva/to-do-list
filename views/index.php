@@ -53,7 +53,7 @@
             $cont++;
         }
     } else{
-        echo "<p>Nenhuma categoria cadastrada</p>";
+        echo "<p>Nenhuma tarefa cadastrada</p>";
     }
 ?>
 </div>
