@@ -1,9 +1,9 @@
 <?php
     class TarefaController extends Controller {
-        public function listar() {
+        public function listar($id_usuario) {
             $modelTarefa = new Tarefa();
             $modelCategoria = new Categoria();
-            $categorias = $modelCategoria->read();
+            $categorias = $modelCategoria->getByIdUsuario($id_usuario);
 
             foreach($categorias as $categoria){
                 $valor = $modelTarefa->getByIdCategoria($categoria['id']);

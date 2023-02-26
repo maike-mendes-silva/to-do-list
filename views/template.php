@@ -7,7 +7,7 @@
         $model = new Usuario();
         $usuarioLogado = $model->getById($id_usuario);
     } else {
-        if($arquivo != "views/login.php") {
+        if($arquivo != "views/login.php" && $arquivo != "views/formularioUsuario.php") {
             header("location: ".APP."login/login");
             exit(0);
         }
@@ -53,9 +53,7 @@
                     </div>
                 ";
             }
-        ?>
-        <?php
-        require_once $arquivo;
+            require_once $arquivo;
         ?>
     </div>
 </body>

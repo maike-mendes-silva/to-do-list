@@ -30,7 +30,7 @@
                     }
                     $_SESSION['id_usuario'] = $usuario['id'];
                     $_SESSION['nome'] = $usuario['nome'];
-                    $this->redirect('tarefa/listar');
+                    $this->redirect("tarefa/listar/{$usuario['id']}");
                 }
             }
         }

@@ -5,6 +5,9 @@
 </h2>
 
 <?php
+    if(isset($_SESSION)){
+        session_destroy();
+    }
     $nome = "";
     if( isset($_COOKIE['erro'])){
         echo  $_COOKIE['erro'];
