@@ -13,7 +13,11 @@
             }
 
             $dados = array();
-            $dados['tarefasCategorizadas'] = $tarefas;
+            if(isset($tarefas)){
+                $dados['tarefasCategorizadas'] = $tarefas;
+            } else{
+                $dados['tarefasCategorizadas'] = "";
+            }
             $this->view("index", $dados);
             }
 

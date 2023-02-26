@@ -29,6 +29,7 @@
                         session_start();
                     }
                     $_SESSION['id_usuario'] = $usuario['id'];
+                    $_SESSION['nome'] = $usuario['nome'];
                     $this->redirect('tarefa/listar');
                 }
             }

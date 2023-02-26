@@ -15,3 +15,38 @@ body{
 	padding:  30px;
 	border-radius:  10px;
 }
+
+.container-login{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.nome-usuario{
+    font-style: italic;
+    color:#BFBFBF;
+    font-weight: bold;
+    font-size: 14px;
+    align-self: center;
+}
+
+.sair{
+    background-color: #222;
+    border-color: chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: bold;
+    padding: 4px 16px 4px 16px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+}
+
+.sair:hover{
+    background-color: #7fff00;
+    color:#222;
+    transition: 0.2s;
+}
+
+
