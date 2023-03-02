@@ -43,7 +43,7 @@
                                 <p class='nome-tarefa'>{$tarefa['descricao']}</p>
                                 <p class='prazo-tarefa'>$data</p>
                             </div>
-                            <a class='butao deletar-tarefa' type='button' href='$caminho/tarefa/excluir/{$tarefa['id']}'>
+                            <a class='butao deletar-tarefa' type='button' href='$caminho/tarefa/excluir/{$tarefa['id']}/{$usuarioLogado['id']}'>
                                 <p class='check-icon'>✓</p>
                             </a>
                         </div>

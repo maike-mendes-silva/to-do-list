@@ -26,10 +26,10 @@
             $this->view("formularioCategoria", $dados);
         }
 
-        public function excluir($id) {
+        public function excluir($id, $id_usuario) {
             $model = new Categoria();
             $model->delete($id);
-            $this->redirect("categoria/listar");
+            $this->redirect("categoria/listar/$id_usuario");
         }
 
         public function salvar($id_usuario) {

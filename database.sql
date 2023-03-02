@@ -25,6 +25,6 @@ CREATE TABLE usuario(
 
 );
 
-ALTER TABLE tarefa ADD CONSTRAINT fk_tarefa_categoria FOREIGN KEY (id_categoria) REFERENCES categoria (id);
+ALTER TABLE tarefa ADD CONSTRAINT fk_tarefa_categoria FOREIGN KEY (id_categoria) REFERENCES categoria (id) ON DELETE CASCADE;
 
-ALTER TABLE categoria ADD CONSTRAINT fk_categoria_usuario FOREIGN KEY (id_usuario) REFERENCES usuario (id);
+ALTER TABLE categoria ADD CONSTRAINT fk_categoria_usuario FOREIGN KEY (id_usuario) REFERENCES usuario (id) ON DELETE CASCADE;

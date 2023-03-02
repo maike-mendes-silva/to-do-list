@@ -25,7 +25,7 @@
                         <a class='butao editar-categoria' type='button' href='$caminho/categoria/editar/{$categoria['id']}'>
                             <p class='buton-icon'>*</p>
                         </a>
-                        <a class='butao deletar-categoria' type='button' href='$caminho/categoria/excluir/{$categoria['id']}'>
+                        <a class='butao deletar-categoria' type='button' href='$caminho/categoria/excluir/{$categoria['id']}/{$usuarioLogado['id']}'>
                             <p class='buton-icon'>X</p>
                         </a>
                     </div>

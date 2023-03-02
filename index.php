@@ -21,9 +21,11 @@
 
     // controller é o objeto controlador que foi acionado
     $controller = new $controlador();
-    if (isset($separador[2])) {
+    if (isset($separador[2]) && !isset($separador[3])) {
         $controller->$acao($separador[2]);
-    } else {
+    } else if (isset($separador[2]) && isset($separador[3])){
+        $controller->$acao($separador[2], $separador[3]);
+    } else{
         $controller->$acao();
     }
 ?>

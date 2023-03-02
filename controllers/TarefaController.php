@@ -34,10 +34,10 @@
             $this->view("formularioTarefa", $dados);
         }
 
-        public function excluir($id) {
+        public function excluir($id, $id_usuario) {
             $model = new Tarefa();
             $model->delete($id);
-            $this->redirect("tarefa/listar");
+            $this->redirect("tarefa/listar/$id_usuario");
         }
 
         public function salvar($id_usuario) {
