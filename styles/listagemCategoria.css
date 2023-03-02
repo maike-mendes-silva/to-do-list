@@ -114,3 +114,12 @@
     margin: auto;
     text-decoration: none;
 }
+
+.msg-nenhuma{
+    color: #BFBFBF;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px 0 16px 0;
+    text-decoration: underline;
+}

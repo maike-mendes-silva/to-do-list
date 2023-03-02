@@ -111,3 +111,12 @@ hr{
     width: 75%;
     margin: auto 0 auto auto;
 }
+
+.msg-nenhuma{
+    color: #BFBFBF;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 32px;
+    text-decoration: underline;
+}

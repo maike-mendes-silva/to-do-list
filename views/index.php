@@ -53,7 +53,7 @@
             $cont++;
         }
     } else{
-        echo "<p>Nenhuma tarefa cadastrada</p>";
+        echo "<p class='msg-nenhuma'>Nenhuma tarefa cadastrada!</p>";
     }
 ?>
 </div>
