@@ -21,12 +21,12 @@
             $this->view("index", $dados);
             }
 
-        public function novo() {
+        public function novo($id_usuario) {
             $tarefa = array();
             $tarefa['descricao'] = "";
             $tarefa['prazo'] = "";
             $model = new Categoria();
-            $categorias = $model->read();
+            $categorias = $model->getByIdUsuario($id_usuario);
 
             $dados = array();
             $dados['tarefa'] = $tarefa;
@@ -40,7 +40,7 @@
             $this->redirect("tarefa/listar");
         }
 
-        public function salvar() {
+        public function salvar($id_usuario) {
             $tarefa = array();
             $tarefa['descricao'] = $_POST['descricao'];
             $tarefa['prazo'] = $_POST['prazo'];
@@ -48,7 +48,7 @@
             $model = new Tarefa();
             /* Se tiver a funcao update, não esquecer de fazer uma condição se o ID está setado ou não aqui */
             $model->create($tarefa);
-            $this->redirect("tarefa/listar");
+            $this->redirect("tarefa/listar/$id_usuario");
         }
     }
 ?>

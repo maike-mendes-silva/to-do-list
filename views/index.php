@@ -6,13 +6,13 @@
 </h2>
 
 <div class='container-botoes'>
-    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'tarefa/novo';?>'">
+    <a class='butao novo' type='button' <?php echo "href = '$caminho/tarefa/novo/{$usuarioLogado['id']}'"?>>
         Nova Tarefa
-    </button>
+    </a>
 
-    <button class='butao novo' type='button' onclick="window.location.href = '<?php echo APP.'categoria/listar';?>'">
+    <a class='butao novo' type='button' <?php echo "href = '$caminho/categoria/listar/{$usuarioLogado['id']}'"?>>
         Menu Categoria
-    </button>
+    </a>
 </div>
 
 <div class='container-tarefas'>

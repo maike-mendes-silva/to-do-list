@@ -4,7 +4,7 @@
     Crie aqui suas tarefas a fazer! Informe uma breve descricao e um prazo para realização. 
 </h2>
 
-<form action="<?php echo APP.'tarefa/salvar';?>" method="post">
+<form <?php echo "action = '$caminho/tarefa/salvar/{$usuarioLogado['id']}'"?> method="post">
 
     <div>
         <label for="categoria" class="form-label">

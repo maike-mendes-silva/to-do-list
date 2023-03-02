@@ -1,8 +1,8 @@
 <?php
     class CategoriaController extends Controller {
-        public function listar() {
+        public function listar($id_usuario) {
             $model = new Categoria();
-            $categorias = $model->read();
+            $categorias = $model->getByIdUsuario($id_usuario);
             $dados = array();
             $dados['categorias'] = $categorias;
             $this->view("listagemCategoria", $dados);
@@ -32,7 +32,7 @@
             $this->redirect("categoria/listar");
         }
 
-        public function salvar() {
+        public function salvar($id_usuario) {
             $categoria = array();
             $categoria['id'] = $_POST['id'];
             $categoria['descricao'] = $_POST['descricao'];
@@ -43,7 +43,7 @@
               } else {
                 $model->update($categoria);
               }
-            $this->redirect("categoria/listar");
+            $this->redirect("categoria/listar/$id_usuario");
         }
     }
 ?>

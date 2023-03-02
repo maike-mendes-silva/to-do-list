@@ -4,7 +4,7 @@
     Crie aqui as categorias para suas tarefas e traga uma melhora na sua organização!
 </h2>
 
-<form action="<?php echo APP.'categoria/salvar';?>" method="post">
+<form <?php echo "action = '$caminho/categoria/salvar/{$usuarioLogado['id']}'"?> method="post">
 
     <div>
         <input type="hidden" name="id" value='<?php echo "{$categoria['id']}"; ?>'>

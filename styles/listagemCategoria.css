@@ -15,14 +15,14 @@
 
 .butao{
     background-color: #222;
-    border-color: chartreuse;
     text-align: center;
     border-radius: 5px;
-    border-style: solid;
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
     color: #fff;
+    text-decoration: none;
+    border: 2px solid chartreuse;
 }
 
 .butao:hover{
@@ -34,7 +34,6 @@
 .novo{
     font-size: 14px;
     width: 170px;
-    height: 40px;
 }
 
 .container-botoes{
