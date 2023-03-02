@@ -84,3 +84,15 @@
     transition: 0.2s;
 }
 
+.formulario-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.msg-erro{
+    color: #FF4E19;
+    font-weight: bold;
+    font-size: 14px;
+}
+

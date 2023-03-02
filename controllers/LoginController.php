@@ -30,6 +30,7 @@
                     }
                     $_SESSION['id_usuario'] = $usuario['id'];
                     $_SESSION['nome'] = $usuario['nome'];
+                    setcookie("erro", "");
                     $this->redirect("tarefa/listar/{$usuario['id']}");
                 }
             }
