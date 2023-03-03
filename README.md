@@ -7,5 +7,8 @@ Uma ferramenta básica de ***criação de tarefas*** utilizado HTML, CSS e PHP j
  ***Possíveis melhorias***: 
  <br/>
  * Clean Code
- * + Funcionalidades (validação de prazo, pesquisa de tarefas, filtros e etc)
+ * Funcionalidades (validação de prazo, pesquisa de tarefas, filtros e etc)
 <br/> <br/>
+
+![a](https://user-images.githubusercontent.com/76602039/222594330-3cad5c95-42bb-4e97-ac9c-47970613c7e1.png)
+
