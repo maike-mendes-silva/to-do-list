@@ -10,5 +10,4 @@ Uma ferramenta básica de ***criação de tarefas*** utilizado HTML, CSS e PHP j
  * Funcionalidades (validação de prazo, pesquisa de tarefas, filtros e etc)
 <br/> <br/>
 
-![a](https://user-images.githubusercontent.com/76602039/222594330-3cad5c95-42bb-4e97-ac9c-47970613c7e1.png)
-
+![a](https://user-images.githubusercontent.com/76602039/222595078-06b79ff6-6fca-430f-972c-f6895d0b9831.png)
